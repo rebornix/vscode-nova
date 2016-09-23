@@ -1,0 +1,6 @@
+.vscode/**/*
+.gitignore
+src/**/*
+out/tests/**/*
+**/*.js.map
+*.vsix
