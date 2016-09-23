@@ -2,7 +2,7 @@
     "name": "nova",
     "displayName": "nova",
     "description": "Nova theme for Visual Studio Code",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "rebornix",
     "engines": {
         "vscode": "^1.0.0"
