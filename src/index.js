@@ -44,13 +44,13 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>name</key>
 			<string>CONSTANT</string>
 			<key>scope</key>
-			<string>constant, numeric, boolean, string.single, string.template, string.double, punctuation.string, variable.property, variable.other, dictionary.value, css.property-value, markup.link, markup.raw, html.id</string>
+			<string>string.single, string.template, string.double, string.regex, constant, numeric, boolean, punctuation.string, variable.property, variable.other, dictionary.value, css.property-value, markup.link, markup.raw, html.id, meta.function.type.parameter, meta.indexer.parameter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>${nova.normal.cyan}</string>
 			</dict>
-		</dict>
+		</dict>	
 		<dict>
 			<key>name</key>
 			<string>IDENTIFIER</string>
@@ -66,7 +66,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>name</key>
 			<string>STATEMENT</string>
 			<key>scope</key>
-			<string> keyword, control, operator, punctuation.operator, css.property-name, jsx.component, jsx.tag, html.attribute-name </string>
+			<string>keyword, control, operator, punctuation.operator, css.property-name, jsx.component, jsx.tag, html.attribute-name </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -77,7 +77,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>name</key>
 			<string>TYPE</string>
 			<key>scope</key>
-			<string>storage, undefined, null, nan</string>
+			<string>storage, undefined, null, nan, entity.name.class, meta.enum</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -110,7 +110,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>name</key>
 			<string>SPECIAL</string>
 			<key>scope</key>
-			<string> arrow, brace.square, brace.curly, brace.round, punctuation.parameters, quasi.begin, quasi.end, dictionary.begin, dictionary.end, module.all, css.property-list, css.function, markup.heading, list, jsx.embedded </string>
+			<string>meta.brace, arrow, punctuation.parameters, quasi.begin, quasi.end, dictionary.begin, dictionary.end, module.all, css.property-list, css.function, markup.heading, list, jsx.embedded</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -128,7 +128,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 				<string>${nova.bright.black}</string>
 			</dict>
 		</dict>
-	</array>
+		</array>
 	<key>uuid</key>
 	<string>f0585502-0d66-4ff4-b3f4-ae6ffb40832e</string>
 </dict>
