@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+
+node src/index.js >> themes/nova.tmTheme

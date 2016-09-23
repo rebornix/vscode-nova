@@ -7,6 +7,19 @@
     "engines": {
         "vscode": "^1.0.0"
     },
+    "scripts": {
+        "start": "scripts/start",
+        "push": "scripts/push",
+        "lint": "scripts/lint",
+        "build": "scripts/build"
+    },
+    "devDependencies": {
+        "eslint": "3.5.0",
+        "watch": "0.19.2"
+    },
+    "dependencies": {
+        "nova-colors": "1.2.0"
+    },
     "categories": [
         "Themes"
     ],
