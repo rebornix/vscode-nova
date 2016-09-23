@@ -1,7 +1,6 @@
 const nova = require('nova-colors')
 
-const sourceString =`
-<?xml version="1.0" encoding="UTF-8"?>
+const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -26,6 +25,8 @@ const sourceString =`
 				<string>${nova.normal.cyan}7F</string>
 				<key>findMatchHighlight</key>
 				<string>${nova.normal.cyan}40</string>
+				<key>rangeHighlight</key>
+				<string>${nova.normal.cyan}7F</string>
 			</dict>
 		</dict>
 		<dict>

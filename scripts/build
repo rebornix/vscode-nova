@@ -1,4 +1,4 @@
 #!/bin/bash
 set -euo pipefail
-
+echo "" > themes/nova.tmTheme
 node src/index.js >> themes/nova.tmTheme
