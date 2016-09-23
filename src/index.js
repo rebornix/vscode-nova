@@ -26,6 +26,8 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 				<key>findMatchHighlight</key>
 				<string>${nova.normal.cyan}40</string>
 				<key>rangeHighlight</key>
+				<string>${nova.normal.cyan}40</string>
+				<key>currentFindMatchHighlight</key>
 				<string>${nova.normal.cyan}7F</string>
 			</dict>
 		</dict>
