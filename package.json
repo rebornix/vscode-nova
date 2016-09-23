@@ -4,6 +4,11 @@
     "description": "Nova theme for Visual Studio Code",
     "version": "0.0.3",
     "publisher": "rebornix",
+    "icon": "assets/icon.png",
+    "galleryBanner": {
+        "color": "#445660",
+        "theme": "light"
+    },
     "engines": {
         "vscode": "^1.0.0"
     },

@@ -87,7 +87,7 @@ const sourceString =`
 			<key>name</key>
 			<string>GLOBAL</string>
 			<key>scope</key>
-			<string> module, dom, this, builtin, process </string>
+			<string> module, import, include, dom, this, builtin, process </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
