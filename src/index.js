@@ -57,7 +57,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>name</key>
 			<string>IDENTIFIER</string>
 			<key>scope</key>
-			<string>variable, function.entity, object.key, variable, entity.class, css.attribute-name, css.tag, jsx.attribute-name, html.tag</string>
+			<string>variable, function.entity, object.key, variable, entity.class, entity.name.tag, css.attribute-name, css.tag, jsx.attribute-name, html.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -68,7 +68,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>name</key>
 			<string>STATEMENT</string>
 			<key>scope</key>
-			<string>keyword, control, operator, punctuation.operator, css.property-name, jsx.component, jsx.tag, html.attribute-name </string>
+			<string>keyword, control, operator, punctuation.operator, css.property-name, jsx.component, jsx.tag, html.attribute-name, entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -112,7 +112,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>name</key>
 			<string>SPECIAL</string>
 			<key>scope</key>
-			<string>meta.brace, arrow, punctuation.parameters, quasi.begin, quasi.end, dictionary.begin, dictionary.end, module.all, css.property-list, css.function, markup.heading, list, jsx.embedded</string>
+			<string>arrow, punctuation.parameters, quasi.begin, quasi.end, dictionary.begin, dictionary.end, module.all, css.property-list, css.function, markup.heading, list</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
