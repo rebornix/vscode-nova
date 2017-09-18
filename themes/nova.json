@@ -145,6 +145,12 @@
 			}
 		},
 		{
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#83AFE5"
+			}
+		},
+		{
 			"scope": "entity.name.tag",
 			"settings": {
 				"foreground": "#83AFE5"
@@ -276,6 +282,12 @@
 			"scope": "meta.object-literal.key",
 			"settings": {
 				"foreground": "#83AFE5"
+			}
+		},
+		{
+			"scope": "variable.language",
+			"settings": {
+				"foreground": "#9A93E1"
 			}
 		}
 	]
