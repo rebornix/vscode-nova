@@ -2,7 +2,7 @@
     "name": "nova",
     "displayName": "nova",
     "description": "Nova theme for Visual Studio Code",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "rebornix",
     "icon": "assets/icon.png",
     "galleryBanner": {
@@ -40,7 +40,7 @@
             {
                 "label": "Nova",
                 "uiTheme": "vs-dark",
-                "path": "./themes/nova.tmTheme"
+                "path": "./themes/nova.json"
             }
         ]
     }
