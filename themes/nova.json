@@ -289,6 +289,13 @@
 			"settings": {
 				"foreground": "#9A93E1"
 			}
+		},
+		{
+			"scope": "punctuation.definition.block",
+			"name": "syntaxGroups.special",
+			"settings": {
+				"foreground": "#F2C38F"
+			}
 		}
 	]
 }
