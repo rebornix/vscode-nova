@@ -21,6 +21,7 @@
 		"editor.findRangeHighlightBackground": "#556873",
 		"editor.inactiveSelectionBackground": "#556873",
 		"editor.wordHighlightStrongBackground": "#556874",
+		"editor.findMatchHighlightBackground": "#6A7D89",
 		"editorLineNumber.foreground": "#6A7D89",
 		"editorGroup.background": "#1E272C",
 		"editorGroupHeader.noTabsBackground": "#1E272C",
