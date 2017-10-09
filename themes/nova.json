@@ -101,7 +101,7 @@
 		"editorSuggestWidget.selectedBackground": "#6A7D89",
 		"editorOverviewRuler.addedForeground": "#A8CE93",
 		"editorOverviewRuler.deletedForeground": "#DF8C8C",
-		"editorOverviewRuler.modifiedForeground": "#83AFE5",
+		"editorOverviewRuler.modifiedForeground": "#F2C38F",
 		"editorGutter.addedBackground": "#A8CE93",
 		"editorGutter.deletedBackground": "#DF8C8C",
 		"editorGutter.modifiedBackground": "#83AFE5"
