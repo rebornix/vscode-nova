@@ -118,7 +118,7 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#D18EC2"
-			}
+            }
 		},
 		{
 			"scope": "strong",
@@ -303,6 +303,18 @@
 			"name": "syntaxGroups.special",
 			"settings": {
 				"foreground": "#F2C38F"
+			}
+        },
+        {
+			"scope": "entity.name.tag.tsx",
+			"settings": {
+				"foreground": "#F2C38F"
+			}
+		},
+        {
+			"scope": "entity.other.attribute-name.tsx",
+			"settings": {
+				"foreground": "#83AFE5"
 			}
 		}
 	]
