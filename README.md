@@ -3,4 +3,4 @@ Nova color scheme syntax plugin for Visual Studio Code. All credits to [@AC_Desi
 
 ![Screenshot](./assets/screenshot.png?raw=true "Screenshot")
 
-**See the [documentation website](https://trevordmiller.github.io/nova) for more information**
+**See the [documentation website](https://trevordmiller.com/projects/nova) for more information**
