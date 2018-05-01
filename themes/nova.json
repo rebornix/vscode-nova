@@ -1,5 +1,4 @@
 {
-	"$schema": "vscode://schemas/color-theme",
 	"name": "Nova",
 	"colors": {
 		"activityBarBadge.background": "#7FC1CA",
@@ -60,12 +59,6 @@
 		"inputValidation.errorBorder": "#DF8C8C",
 		"editorIndentGuide.background": "#556873",
 		"inputOption.activeBorder": "#7FC1CA",
-		"notification.errorBackground": "#DF8C8C",
-		"notification.errorForeground": "#3C4C55",
-		"notification.warningBackground": "#F2C38F",
-		"notification.warningForeground": "#3C4C55",
-		"notification.background": "#3C4C55",
-		"notification.buttonBackground": "#556873",
 		"peekViewTitle.background": "#1E272C",
 		"peekView.border": "#1E272C",
 		"peekViewEditor.background": "#3C4C55",
@@ -172,19 +165,19 @@
 		{
 			"scope": "markup.underline",
 			"settings": {
-				"fontStyle": "underline",
+				"fontStyle": "underline"
 			}
 		},
 		{
 			"scope": "markup.bold",
 			"settings": {
-				"fontStyle": "bold",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "markup.italic",
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "italic"
 			}
 		},
 		{
