@@ -23,7 +23,7 @@
         "watch": "0.19.2"
     },
     "dependencies": {
-        "nova-colors": "1.2.0"
+        "nova-colors": "2.1.5"
     },
     "categories": [
         "Themes"

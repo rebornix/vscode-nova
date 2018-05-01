@@ -15,6 +15,12 @@
 				"${workspaceRoot}/out/**/*.js"
 			],
 			"preLaunchTask": "build" 
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Launch Program",
+			"program": "${workspaceFolder}/src/index.js"
 		}
 	]
 }

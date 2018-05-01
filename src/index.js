@@ -5,30 +5,30 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Nova</string>
+	<string>nova.ansiGroups</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>${nova.normal.black}</string>
+				<string>${nova.ansiGroups.normal.black}</string>
 				<key>foreground</key>
-				<string>${nova.bright.black}</string>
+				<string>${nova.ansiGroups.bright.black}</string>
 				<key>caret</key>
-				<string>${nova.normal.red}</string>
+				<string>${nova.ansiGroups.normal.red}</string>
 				<key>invisibles</key>
-				<string>${nova.decoration.medium}</string>
+				<string>${nova.default.grays.gray2}</string>
 				<key>lineHighlight</key>
-				<string>${nova.decoration.medium}</string>
+				<string>${nova.default.grays.gray2}</string>
 				<key>selection</key>
-				<string>${nova.normal.cyan}7F</string>
+				<string>${nova.ansiGroups.normal.cyan}7F</string>
 				<key>findMatchHighlight</key>
-				<string>${nova.normal.cyan}40</string>
+				<string>${nova.ansiGroups.normal.cyan}40</string>
 				<key>rangeHighlight</key>
-				<string>${nova.normal.cyan}40</string>
+				<string>${nova.ansiGroups.normal.cyan}40</string>
 				<key>currentFindMatchHighlight</key>
-				<string>${nova.normal.cyan}7F</string>
+				<string>${nova.ansiGroups.normal.cyan}7F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -39,7 +39,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>${nova.normal.white}</string>
+				<string>${nova.ansiGroups.normal.white}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -50,7 +50,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>${nova.normal.cyan}</string>
+				<string>${nova.syntaxGroups.constant}</string>
 			</dict>
 		</dict>	
 		<dict>
@@ -61,7 +61,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>${nova.normal.blue}</string>
+				<string>${nova.syntaxGroups.identifier}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -72,7 +72,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>${nova.normal.yellow}</string>
+				<string>${nova.syntaxGroups.statement}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -83,7 +83,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>${nova.normal.green}</string>
+				<string>${nova.syntaxGroups.type}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -94,7 +94,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>${nova.normal.magenta}</string>
+				<string>${nova.ansiGroups.normal.magenta}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -105,7 +105,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>${nova.bright.magenta}</string>
+				<string>${nova.ansiGroups.bright.magenta}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -116,7 +116,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>${nova.bright.red}</string>
+				<string>${nova.syntaxGroups.special}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -127,7 +127,7 @@ const sourceString =`<?xml version="1.0" encoding="UTF-8"?>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>${nova.bright.black}</string>
+				<string>${nova.syntaxGroups.trivial}</string>
 			</dict>
 		</dict>
 		</array>
