@@ -36,6 +36,7 @@ const sourceString =`{
 		"extensionButton.prominentForeground": "#3C4C55",
 		"extensionButton.prominentHoverBackground": "#7FC1CA",
 		"sideBar.background": "#1E272C",
+		"scrollbar.shadow": "${nova.uiGroups.background}",
 		"activityBar.background": "#1E272C",
 		"tab.activeBackground": "${nova.uiGroups.background}",
 		"tab.activeForeground": "#7FC1CA",
@@ -175,19 +176,19 @@ const sourceString =`{
 		{
 			"scope": "markup.underline",
 			"settings": {
-				"fontStyle": "underline",
+				"fontStyle": "underline"
 			}
 		},
 		{
 			"scope": "markup.bold",
 			"settings": {
-				"fontStyle": "bold",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "markup.italic",
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "italic"
 			}
 		},
 		{
