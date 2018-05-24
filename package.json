@@ -2,7 +2,7 @@
     "name": "nova",
     "displayName": "nova",
     "description": "Nova theme for Visual Studio Code",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "publisher": "rebornix",
     "icon": "assets/icon.png",
     "galleryBanner": {
@@ -13,9 +13,6 @@
         "vscode": "^1.0.0"
     },
     "scripts": {
-        "start": "scripts/start",
-        "push": "scripts/push",
-        "lint": "scripts/lint",
         "build": "scripts/build"
     },
     "devDependencies": {
